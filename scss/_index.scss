@@ -1,0 +1,13 @@
+.hero-image {
+  background-image: $bg-index;
+  background-size: $bg-size-cover;
+  background-repeat: $bg-no-repeat;
+  height: $height-450;
+  max-width: $max-width;
+}
+
+.h4-hero {
+  background: $linear-gradient;
+  -webkit-text-fill-color: $color-transparent;
+  -webkit-background-clip: $text;
+}

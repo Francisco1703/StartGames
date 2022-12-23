@@ -1,3 +1,23 @@
+/*bg images*/
+/*colors*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  max-width: 100%;
+}
+
+.h4-hero {
+  background: linear-gradient(90deg, #15eeec, #e115ee);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
 /*# sourceMappingURL=style.css.map */
