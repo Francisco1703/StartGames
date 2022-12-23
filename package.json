@@ -1,0 +1,20 @@
+{
+  "name": "pagina-de-juegos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francisco1703/StartGames.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francisco1703/StartGames/issues"
+  },
+  "homepage": "https://github.com/Francisco1703/StartGames#readme"
+}
