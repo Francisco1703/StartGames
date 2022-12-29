@@ -29,15 +29,15 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-info">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img
               src="imagenes/logotipo.png"
               alt="Icono de analogicos de joystick"
           /></a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler button-color"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -48,51 +48,294 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-dark" type="submit">Buscar</button>
-            </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item text-center">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active text-light li-text"
+                  aria-current="page"
+                  href="#"
                   >Tienda</a
                 >
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="#">Preguntas frecuentes</a>
+                <a class="nav-link text-light li-text" href="#"
+                  >Preguntas frecuentes</a
+                >
               </li>
 
               <li class="nav-item text-center">
-                <a class="nav-link" href="#"> Ayuda</a>
+                <a class="nav-link text-light li-text" href="#"> Ayuda</a>
               </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-3"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
           </div>
         </div>
       </nav>
     </header>
 
     <!--Section hero-->
-    <section class="text-center p-section">
-      <div class="color">
-        <div class="container-fluid">
-          <div class="hero-image d-flex align-items-end justify-content-start">
+    <div
+      id="carouselExampleIndicators"
+      class="container-fluid carousel slide bg-black"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-center p-section">
+            <div class="color">
+              <div class="container-fluid">
+                <div
+                  class="hero-image d-flex align-items-end justify-content-start"
+                >
+                  <div
+                    class="d-sm-flex align-items-center justify-content-around"
+                  >
+                    <div class="text-center text-light px-3 pb-4">
+                      <h5 class="fs-6 h5-hero">GAMES JXT STORE</h5>
+                      <h4 class="fs-4 h4-hero fw-bold">OFERTAS NAVIDEÑAS</h4>
+                      <p class="p-hero fw-semibold">
+                        ¡Ya están aquí las ofertas navideñas!
+                      </p>
+                      <p class="p-hero fw-semibold fs-6">
+                        Aunque hayas sido bueno o malo, <br />
+                        nosotros te compensamos igual, <br />
+                        porque todos lo merecen. <br />
+                        Aprovechá hasta un 50% de descuento <br />
+                        en ciertos videojuegos y accesorios.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="hero-image-fortnite d-flex align-items-end justify-content-start"
+          >
             <div class="d-sm-flex align-items-center justify-content-around">
               <div class="text-center text-light px-3 pb-4">
                 <h5 class="fs-6 h5-hero">GAMES JXT STORE</h5>
                 <h4 class="fs-4 h4-hero fw-bold">OFERTAS NAVIDEÑAS</h4>
-                <p class="p-hero">¡Ya están aquí las ofertas navideñas!</p>
-                <p class="p-hero">
-                  Aunque hayas sido bueno o malo, <br />
-                  nosotros te compensamos igual, <br />
-                  porque todos lo merecen. <br />
-                  Aprovechá hasta un 75% de descuento <br />
-                  en ciertos videojuegos y accesorios.
+                <p class="p-hero fw-semibold fs-6">
+                  Disfrutá de los mejores videojuegos <br />
+                  del mercado, y llevate de <br />
+                  regalo un acesorio a elección.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="hero-image-cod d-flex align-items-end justify-content-start"
+          >
+            <div class="d-sm-flex align-items-center justify-content-around">
+              <div class="text-center text-light px-3 pb-4">
+                <h5 class="fs-6 h5-hero">GAMES JXT STORE</h5>
+                <h4 class="fs-4 h4-hero fw-bold">OFERTAS NAVIDEÑAS</h4>
+
+                <p class="p-hero fw-semibold fs-6">
+                  Aprovechá las ofertas disponibles <br />
+                  solo hasta el 6 de enero, <br />
+                  en todos los videojuegos, tanto <br />
+                  físicos como digitales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Cards-->
+
+    <section class="p-5 bg-black">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <h3 class="fs-2 text-start lead h3-ofertas">Las mejores ofertas</h3>
+
+          <div class="col-4 col-md-3 mb-3 card-zoom">
+            <div class="card text-light h-100 bg-black">
+              <div class="card-body text-center">
+                <div class="mb-4 d-flex justify-content-center">
+                  <img
+                    style="max-width: 100%"
+                    src="imagenes/dark siders.jfif"
+                    class="card__img"
+                    alt="Videojuego Dark Siders"
+                  />
+                </div>
+                <h3 class="card-title mb-3 d-flex fs-2 text-light lead fs-4">
+                  Dark Siders II
+                </h3>
+                <div class="d-flex">
+                  <div
+                    class="d-flex justify-content-start align-items-center"
+                    disabled
+                  >
+                    <p
+                      class="px-1 fs-7 text-black text-center bg-info porcentaje-border"
+                    >
+                      -40%
+                    </p>
+                  </div>
+                  <p class="ps-2 text-end">
+                    <span class="through">$29,99</span> $17,99
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-md-3 mb-3 card-zoom">
+            <div class="card text-light h-100 bg-black">
+              <div class="card-body text-center">
+                <div class="mb-4 d-flex justify-content-center">
+                  <img
+                    style="max-width: 100%"
+                    src="imagenes/uncharted 3.jfif"
+                    class="card__img"
+                    alt="Videojuego Uncharted 3"
+                  />
+                </div>
+                <h3 class="card-title mb-3 d-flex fs-2 text-light lead fs-4">
+                  Uncharted III
+                </h3>
+                <div class="d-flex">
+                  <div
+                    class="d-flex justify-content-start align-items-center"
+                    disabled
+                  >
+                    <p
+                      class="px-1 fs-7 text-black text-center bg-info porcentaje-border"
+                    >
+                      -25%
+                    </p>
+                  </div>
+                  <p class="ps-2 text-end">
+                    <span class="through">$18,99</span> $14,25
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-md-3 mb-3 card-zoom">
+            <div class="card text-light h-100 bg-black">
+              <div class="card-body text-center">
+                <div class="mb-4 d-flex justify-content-center">
+                  <img
+                    style="max-width: 93%"
+                    src="imagenes/metal gear survive.jfif"
+                    class="card__img"
+                    alt="Videojuego metal gear survive"
+                  />
+                </div>
+                <h3 class="card-title mb-3 d-flex fs-2 text-light lead fs-4">
+                  Metal Gear Survive
+                </h3>
+                <div class="d-flex">
+                  <div
+                    class="d-flex justify-content-start align-items-center"
+                    disabled
+                  >
+                    <p
+                      class="px-1 fs-7 text-black text-center bg-info porcentaje-border"
+                    >
+                      -50%
+                    </p>
+                  </div>
+                  <p class="ps-2 text-end">
+                    <span class="through">$45</span> $22,5
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-md-3 mb-3 card-zoom">
+            <div class="card text-light h-100 bg-black">
+              <div class="card-body text-center">
+                <div class="mb-4 d-flex justify-content-center">
+                  <img
+                    style="max-width: 85%"
+                    src="imagenes/titanfall 2.jfif"
+                    class="card__img"
+                    alt="Videojuego Titanfall 2"
+                  />
+                </div>
+                <h3
+                  class="text-center card-title mb-3 d-flex fs-2 text-light lead fs-4"
+                >
+                  Titanfall 2
+                </h3>
+                <div class="d-flex">
+                  <div
+                    class="d-flex justify-content-start align-items-center"
+                    disabled
+                  >
+                    <p
+                      class="px-1 fs-7 text-black text-center bg-info porcentaje-border"
+                    >
+                      -35%
+                    </p>
+                  </div>
+                  <p class="ps-2 text-end">
+                    <span class="through">$58,99</span> $38,34
+                  </p>
+                </div>
               </div>
             </div>
           </div>

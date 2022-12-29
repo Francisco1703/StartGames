@@ -1,21 +1,74 @@
 /*bg images*/
 /*colors*/
+/*fonts*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.button-color {
+  background-color: #8bc44a;
+}
+
+.li-text:hover {
+  background-color: #f13e1a;
+  transition: all 1.5s;
+}
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/videojuego.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
   max-width: 100%;
+  background-position: 0% 10%;
+}
+
+.hero-image-fortnite {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fortnite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  max-width: 100%;
+  background-position: 0% 15%;
+}
+
+.hero-image-cod {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/cod.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  max-width: 100%;
+  background-position: 0% 25%;
+}
+
+.color {
+  background-color: black;
 }
 
 .h4-hero {
-  background: linear-gradient(90deg, #15eeec, #e115ee);
+  background: linear-gradient(90deg, #eb3a3a, #e7efe4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.through {
+  text-decoration: line-through;
+}
+
+.porcentaje-border {
+  border-radius: 15%;
+}
+
+.card-zoom:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.h3-ofertas {
+  font-family: "red hat display", sans-serif;
+  background: linear-gradient(180deg, #34f891, #7854ea);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }

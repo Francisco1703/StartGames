@@ -1,13 +1,38 @@
 /*bg images*/
 $bg-index: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-  url(../imagenes/hero.jpg);
+  url(../imagenes/videojuego.jpg);
+
+$bg-fortnite: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+  url(../imagenes/fortnite.jpg);
+
+$bg-cod: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+  url(../imagenes/cod.jpg);
 
 $bg-size-cover: cover;
 $bg-no-repeat: no-repeat;
 $height-450: 450px;
 $max-width: 100%;
+$bg-position-center: center;
+$text: text;
+$transition-15: all 1.5s;
+$line-through: line-through;
+$porcentaje-15: 15%;
+$scale-11: scale(1.1);
+$pointer: pointer;
 
 /*colors*/
-$linear-gradient: linear-gradient(90deg, #15eeec, #e115ee);
+$linear-gradient: linear-gradient(90deg, #eb3a3a, #e7efe4);
+$linear-gradient-ofertas: linear-gradient(180deg, #34f891, #7854ea);
 $color-transparent: transparent;
-$text: text;
+$color-black: black;
+$color-light-blue: #5cd0f8;
+$linear-gradient-light-blue: linear-gradient(90deg, #5cd0f8, #e7efe4);
+$color-orange: #f13e1a;
+$color-light-green: #8bc44a;
+
+/*fonts*/
+
+$fuzzy-bubbles: "fuzzy bubbles", sans-serif;
+$libre-baskerville: "libre baskerville", sans-serif;
+$red-hat-display: "red hat display", sans-serif;
+$trispace: "trispace", sans-serif;

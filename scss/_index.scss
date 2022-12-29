@@ -4,10 +4,52 @@
   background-repeat: $bg-no-repeat;
   height: $height-450;
   max-width: $max-width;
+  background-position: 0% 10%;
+}
+
+.hero-image-fortnite {
+  background-image: $bg-fortnite;
+  background-size: $bg-size-cover;
+  background-repeat: $bg-no-repeat;
+  height: $height-450;
+  max-width: $max-width;
+  background-position: 0% 15%;
+}
+
+.hero-image-cod {
+  background-image: $bg-cod;
+  background-size: $bg-size-cover;
+  background-repeat: $bg-no-repeat;
+  height: $height-450;
+  max-width: $max-width;
+  background-position: 0% 25%;
+}
+.color {
+  background-color: $color-black;
 }
 
 .h4-hero {
   background: $linear-gradient;
+  -webkit-text-fill-color: $color-transparent;
+  -webkit-background-clip: $text;
+}
+
+.through {
+  text-decoration: $line-through;
+}
+
+.porcentaje-border {
+  border-radius: $porcentaje-15;
+}
+
+.card-zoom:hover {
+  transform: $scale-11;
+  cursor: $pointer;
+}
+
+.h3-ofertas {
+  font-family: $red-hat-display;
+  background: $linear-gradient-ofertas;
   -webkit-text-fill-color: $color-transparent;
   -webkit-background-clip: $text;
 }
